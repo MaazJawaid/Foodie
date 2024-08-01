@@ -1,0 +1,24 @@
+.reviewContainer {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.reviewTrack {
+    display: flex;
+    width: calc(100% * 10); /* Adjust this based on the number of review cards and duplicates */
+    animation: scroll 15s linear infinite;
+}
+
+.reviewCard {
+    margin-right: 16px; /* Adjust spacing between cards if necessary */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% / 10)); /* Adjust this based on the number of review cards and duplicates */
+    }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Apply Poppins font to all text elements */
+body,
+button,
+input,
+select,
+textarea,
+.logo,
+.Content li,
+.signIn,
+.signUp {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* scrollbar.css */
+
+/* Track */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d3d3d3; /* Grey color */
+  border-radius: 10px; /* Roundness of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf; /* Lighter grey color */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff; /* White color */
+}
+
+/* Handle on scrollbar with remaining space */
+::-webkit-scrollbar-thumb:vertical {
+  background-color: #ffcccc; /* Very light shade of red */
+}

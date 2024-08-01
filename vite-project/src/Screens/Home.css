@@ -1,0 +1,27 @@
+/* Between 640px and 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .headingMain {
+        font-size: 35px;
+    }
+}
+
+
+/* Greater than 768px */
+@media screen and (min-width: 769px) {
+    .headingMain {
+        font-size: 40px !important;
+    }
+
+    .leftMain {
+        padding: 50px !important;
+    }
+
+    .para {
+        font-size: 17px !important;
+    }
+
+    .innerContentStats {
+        gap: 68px !important;
+    }
+
+}
