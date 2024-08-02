@@ -1,7 +1,7 @@
 # Foodie
 ### Foodie: A Cutting-Edge Restaurant Platform
 
-Welcome to Foodie, an advanced restaurant management platform built with the MERN stack (MongoDB, Express, React, Node.js). Foodie provides a seamless and intuitive experience for both users and administrators, leveraging the latest technology to deliver a high-performance web application. 
+Welcome to Foodie, an advanced restaurant management (Responsive) platform built with the MERN stack (MongoDB, Express, React, Node.js). Foodie provides a seamless and intuitive experience for both users and administrators, leveraging the latest technology to deliver a high-performance web application. 
 
 #### Features
 
@@ -46,3 +46,15 @@ Welcome to Foodie, an advanced restaurant management platform built with the MER
 - **Vite:** For fast build times and efficient development
 
 Foodie stands out with its responsive design and user-friendly navigation, ensuring an engaging experience without long scrolls. Dive into a world where technology meets culinary delights and streamline your restaurant management with Foodie.
+
+## 📂 How to Get Started
+
+1. **Clone a Repository**:
+
+2. **Install Dependencies**:
+   - For the backend: `npm install`
+   - For the frontend: `npm install`
+
+3. **Run the Application**:
+   - Backend: `npx nodemon index.js`
+   - Frontend: `npm run dev`
