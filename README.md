@@ -53,8 +53,8 @@ Foodie stands out with its responsive design and user-friendly navigation, ensur
 
 2. **Install Dependencies**:
    - For the backend: `npm install`
-   - For the frontend: `npm install`
+   - For the frontend (vite-project): `npm install`
 
 3. **Run the Application**:
    - Backend: `npx nodemon index.js`
-   - Frontend: `npm run dev`
+   - Frontend (vite-project): `npm run dev`
