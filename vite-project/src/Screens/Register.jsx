@@ -38,8 +38,8 @@ const Register = () => {
   }
 
   return (
-    <div className="bg-cover h-[100vh] flex items-center justify-center" style={{ backgroundImage: `url(${BackgroundImage})` }}>
-      <section className="bg-gray-50 dark:bg-gray-900 bg-opacity-0 sm:mt-0 mt-16">
+    <div className="bg-cover min-h-[90vh] py-10 flex items-center justify-center" style={{ backgroundImage: `url(${BackgroundImage})` }}>
+      <section className="bg-gray-50 dark:bg-gray-900 bg-opacity-0">
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
           <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
