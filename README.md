@@ -58,3 +58,10 @@ Foodie stands out with its responsive design and user-friendly navigation, ensur
 3. **Run the Application**:
    - Backend: `npx nodemon index.js`
    - Frontend (vite-project): `npm run dev`
+  
+4. **Credentials**:
+   - Admin: Username: `admin`, Password: `admin`
+   - User: Username: `maazk3611@gmail.com`, Password: `password123`
+
+5. **Admin Panel Acces Link**:
+   - Link: `http://localhost:5173/admin/login`
